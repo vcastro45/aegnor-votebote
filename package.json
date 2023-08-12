@@ -1,0 +1,21 @@
+{
+  "name": "votebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc main.ts --outDir ./dist && pkg ./dist/main.js --output ./dist/votebot -t node18-win-x64,node18-macos-x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.36.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1",
+    "typescript": "^5.1.6"
+  }
+}
