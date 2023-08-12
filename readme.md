@@ -22,3 +22,11 @@ exemple:
   "password": "Sup3rSecReTP4ssw0rd!"
 }
 ```
+
+- Laissez tourner le programme, il s'actualise pour voter automatiquement lorsque celà est possible.
+
+## Informations
+
+Le bot n'est capable de voter que pour la plateforme RPGParadize.
+
+La plateforme server-prive.net, étant protégée par captcha, n'est pas supportée.
